@@ -37,7 +37,7 @@ export function BirdModal({ data: bird, isOpen, onClose }: BirdModalProps) {
         />
 
         <div className={styles.header}>
-          <h2>{bird.commonName.toLowerCase()}</h2>
+          <h2>{bird.commonName}</h2>
 
           <p className="color-muted">
             <em>
