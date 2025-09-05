@@ -32,8 +32,8 @@ export function BirdModal({ data: bird, isOpen, onClose }: BirdModalProps) {
           alt={bird.commonName}
           className={styles.image}
           loading="eager"
-          width={800}
-          height={800}
+          width={400}
+          height={400}
         />
 
         <div className={styles.header}>
