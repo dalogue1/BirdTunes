@@ -60,7 +60,7 @@ export function BirdModal({ data: bird, isOpen, onClose }: BirdModalProps) {
         <div className={styles.detections}>
           <Block bottom="3">
             <h2 className="h4">
-              {t("previous")} {data?.length} {t("detections")}
+              {t("last")} {data?.length} {t("detections")}
             </h2>
           </Block>
 
