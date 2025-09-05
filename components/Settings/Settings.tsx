@@ -53,7 +53,7 @@ export const Settings: React.FC<Props> = ({
   };
 
   // Remove "BirdNET-Pi - " from stationName
-  const cleanStationName = stationName?.replace("BirdNET-Pi - ", "Station: ");
+  const cleanStationName = stationName?.replace("BirdNET-Pi - ", "");
 
   return (
     <div className={styles.wrap}>
